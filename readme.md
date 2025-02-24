@@ -65,10 +65,4 @@ If a test fails, check the response messages by printing `response.json()` in te
 - Python
 - Django
 - Django REST Framework (DRF)
-- PostgreSQL (or SQLite for development)
-## 📜 License
-This project is licensed under the MIT License.
-
----
-**Maintainer:** Your Name | [GitHub](https://github.com/yourusername)
 
