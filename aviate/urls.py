@@ -20,6 +20,6 @@ from ats.views import Candidate_view,search
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('candidate/',Candidate_view.as_view()),
-    path('search/',search)
+    path('candidate/',Candidate_view.as_view(),name='candidates-api'),
+    path('search/',search,name='search-candidates')
 ]
